@@ -31,3 +31,28 @@ Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
 ---
 **Intern:** Kanhaiya Bhalerao
 **Program:** AICTE Oasis Infobyte Internship Program (OIBSIP)
+## Task 2: Unemployment Analysis with Python
+
+### Objective
+Analyze the unemployment rate in India, with a focus on the impact of the COVID-19 lockdown period, using real-world labor market data.
+
+### Dataset
+`Unemployment_Rate_upto_11_2020.csv` — state-wise unemployment rate, employment figures, and labour participation rate across India (Jan–Oct 2020), 267 records.
+
+### Approach
+1. Loaded and cleaned the dataset (checked for nulls, converted dates)
+2. Visualized unemployment rate trends across all states over time
+3. Highlighted the COVID-19 lockdown period (Mar–May 2020) against the national average trend
+4. Identified the top 10 most-affected states by average unemployment rate
+5. Compared rural vs. urban unemployment patterns
+
+### Key Insights
+- Unemployment rates spiked sharply in April–May 2020, coinciding with the COVID-19 lockdown
+- States like Delhi, Puducherry, and Jammu & Kashmir recorded the highest average unemployment rates in this period
+- Clear regional disparities in how badly different states were affected
+
+### Files
+- `Kanhaiya_Task2_Unemployment_Analysis.ipynb` — full notebook with code, visualizations, and insights
+
+### Tech Stack
+Python, pandas, NumPy, matplotlib, seaborn
