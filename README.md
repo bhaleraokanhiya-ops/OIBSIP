@@ -56,3 +56,31 @@ Analyze the unemployment rate in India, with a focus on the impact of the COVID-
 
 ### Tech Stack
 Python, pandas, NumPy, matplotlib, seaborn
+## Task 3: Car Price Prediction with Machine Learning
+
+### Objective
+Build a machine learning model to predict the selling price of cars based on their features (engine size, horsepower, dimensions, fuel type, etc.).
+
+### Dataset
+`CarPrice.csv` — 205 car records with 26 features including engine specs, dimensions, fuel type, and price.
+
+### Approach
+1. Loaded and explored the dataset (no missing values)
+2. Dropped non-predictive columns (car ID, car name)
+3. Label-encoded categorical features (fuel type, car body, drive wheel, etc.)
+4. Visualized feature correlations via heatmap
+5. Trained a **Random Forest Regressor**
+6. Evaluated using R² score and RMSE
+7. Analyzed feature importance
+
+### Results
+- **R² Score: 0.9579** (model explains ~95.8% of price variance)
+- **RMSE: 1823.91**
+- Engine size and curb weight were the most influential features in predicting price
+- Actual vs. Predicted plot shows strong alignment with minimal deviation
+
+### Files
+- `Kanhaiya_Task3_Car_Price_Prediction.ipynb` — full notebook with code, visualizations, and results
+
+### Tech Stack
+Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
